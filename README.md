@@ -1,5 +1,4 @@
-Spring Boot Demo Application
+Spring Boot Cloud Application
 
-Spring Boot 开发基础模板系你先
+Spring Boot Cloud demo 测试配置方式
 
-开发Spring Boot， APP WEB 从该模板测试开始

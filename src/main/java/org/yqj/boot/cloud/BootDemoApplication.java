@@ -2,6 +2,7 @@ package org.yqj.boot.cloud;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @SpringBootApplication
 @Controller
+@EnableDiscoveryClient
 public class BootDemoApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(BootDemoApplication.class, args);
