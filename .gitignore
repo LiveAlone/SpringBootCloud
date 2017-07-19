@@ -15,7 +15,7 @@ target/
 .classpath
 .project
 .metadata/
-.idea/
+*.idea/
 .mine/
 logs/
 dev.properties
