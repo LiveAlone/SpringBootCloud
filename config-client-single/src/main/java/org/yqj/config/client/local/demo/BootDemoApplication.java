@@ -28,6 +28,9 @@ public class BootDemoApplication {
     @Value("${foo}")
     private String fooRemoteConfig;
 
+    @Value("${local.foo}")
+    private String localFooValue;
+
     @RequestMapping(value = "/index", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public String indexPage(){
@@ -38,5 +41,11 @@ public class BootDemoApplication {
     @ResponseBody
     public String configDetail(){
         return fooRemoteConfig;
+    }
+
+    @RequestMapping(value = "/foo/local", method = RequestMethod.GET)
+    @ResponseBody
+    public String localFooDetail(){
+        return localFooValue;
     }
 }

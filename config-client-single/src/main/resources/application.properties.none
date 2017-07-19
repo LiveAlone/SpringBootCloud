@@ -1,6 +1,1 @@
-spring.application.name=config-client
-spring.cloud.config.label=master
-spring.cloud.config.profile=dev
-spring.cloud.config.uri= http://localhost:8887/
-
-server.port=8881
+# local.foo=this is local val in application yml

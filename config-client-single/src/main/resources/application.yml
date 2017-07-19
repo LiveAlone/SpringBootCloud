@@ -1,0 +1,3 @@
+local:
+  foo: this is local val in application yml
+
