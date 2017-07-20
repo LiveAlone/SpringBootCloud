@@ -1,3 +1,6 @@
 local:
   foo: this is local val in application yml
+config:
+  application: config in application yml
+
 

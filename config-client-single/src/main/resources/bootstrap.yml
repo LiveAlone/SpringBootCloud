@@ -10,4 +10,5 @@ spring:
       uri:  http://localhost:8887/
 local:
   foo: this is local val
-foo: test replace by local
+config:
+  application: config in bootstrap yml
