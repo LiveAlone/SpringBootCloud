@@ -2,7 +2,7 @@ package org.yqj.service.demo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * Created by yaoqijun.
@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * Descirbe:
  */
 @SpringBootApplication
-@EnableEurekaClient
+@EnableDiscoveryClient
 public class BootDemoApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder()
