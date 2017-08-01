@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      # 获取默认Service Url 配置
+      defaultZone: http://localhost:8761/eureka/
+    # region config
+#    region: shanghai
+    # zone config
+#    availability-zones: sh1,sh2,sh3
+server:
+  port: 8766
+spring:
+  application:
+    name: service-hi-v2
